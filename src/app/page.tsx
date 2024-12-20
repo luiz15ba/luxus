@@ -35,7 +35,7 @@ const Page = () => {
         <h1 className="text-bold font-bold text-pink-800 uppercase text-center">Sua diversão esta aqui!!</h1>
       </div>
       <div className="bg-violet-300 mb-11">
-        <p className="text-bold font-bold text-blue-800 uppercase pl-2">Escolha abaixo uma de nossas garotas e seja feliz a conhecendo melhor...</p>
+        <p className="text-bold font-bold text-blue-800 uppercase pl-2">Seja feliz fazendo novos contatos...</p>
       </div>
       {garotas.map(item => (
         <div key={item.nome} onClick={() => handleModal(item)}>
