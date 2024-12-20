@@ -7,7 +7,7 @@ import { useState } from "react";
 const Page = () => {
   const [garotas, setGarotas] = useState<Garota[]>([
     {foto:'n/n001.jpg',nome:'Nicolly', descricao:'15 anos, Apaixonada por Loucuras...', identificador: 'n', qtdvideos: 1 },
-    {foto:'l/l001.jpg',nome:'Luiz H.', descricao:'Gosto do desconhecido', identificador:'l'},
+    {foto:'l/l001.jpg',nome:'Luiz H.', descricao:'Gosto do desconhecido', identificador:'l', qtdvideos: 1},
     {nome:'Paula', descricao:'Descrição Generica...' },
     {nome:'Carla', descricao:'Descrição Generica...' },
   ])
